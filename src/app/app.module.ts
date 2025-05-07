@@ -15,6 +15,12 @@ import { CardComponent } from './shared/card/card.component';
 import { CardBuscaComponent } from './shared/card-busca/card-busca.component';
 import { MatCardModule } from '@angular/material/card';
 import { CardFeedbackComponent } from './shared/card-feedback/card-feedback.component';
+import { FormBuscaComponent } from './shared/form-busca/form-busca.component';
+import { MatButtonToggleModule } from '@angular/material/button-toggle';
+import { MatIconModule } from '@angular/material/icon';
+import { MatChipsModule } from '@angular/material/chips';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
 
 @NgModule({
   declarations: [
@@ -26,7 +32,8 @@ import { CardFeedbackComponent } from './shared/card-feedback/card-feedback.comp
     HomeComponent,
     CardComponent,
     CardBuscaComponent,
-    CardFeedbackComponent
+    CardFeedbackComponent,
+    FormBuscaComponent
   ],
   imports: [
     BrowserModule,
@@ -34,7 +41,12 @@ import { CardFeedbackComponent } from './shared/card-feedback/card-feedback.comp
     BrowserAnimationsModule,
     MatToolbarModule,
     MatButtonModule,
-    MatCardModule
+    MatCardModule,
+    MatButtonToggleModule,
+    MatIconModule,
+    MatChipsModule,
+    MatFormFieldModule,
+    MatInputModule
   ],
   providers: [],
   bootstrap: [AppComponent]
