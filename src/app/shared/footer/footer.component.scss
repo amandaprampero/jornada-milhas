@@ -1,0 +1,42 @@
+.app-footer {
+    background-color: #1D1B20;
+    color: white;
+    font-size: 16px;
+    padding: 60px 0;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .list {
+        list-style: none;
+
+        li {
+            margin-top: 16px;
+            white-space: nowrap;
+        }
+
+        img {
+            max-width: 100%;
+            max-height: 40px;
+        }
+    }
+
+    .socials {
+        .social {
+            white-space: nowrap;
+        }
+
+        .icons {
+            display: flex;
+            justify-content: baseline;
+
+            img {
+                min-height: 32px;
+                min-width: 32px;
+            }
+        }
+    }
+}
