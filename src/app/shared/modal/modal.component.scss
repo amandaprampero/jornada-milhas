@@ -1,0 +1,84 @@
+.modal {
+    border: 1px solid #1D1B20;
+    max-width: 100%;
+    width: 584px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    h2 {
+        font-size: 32px;
+        padding: 12px;
+        font-weight: 400;
+    }
+
+    .subtitle {
+        font-size: 16px !important;
+        font-weight: 500 !important;
+    }
+
+    mat-chip-option.mdc-evolution-chip--selected {
+        background-color: #E8DEF8 !important;
+        color: black !important;
+    }
+
+    .selecao-idade {
+        display: flex;
+        justify-content: space-between;
+
+        ul {
+            list-style-type: none;
+            margin: 0 0 0 -1em;
+            padding: 0;
+
+            li {
+                margin-bottom: 10px;
+                margin: 12px;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 20px;
+                color: #1D1B20;
+                text-align: start;
+                padding: 0;
+
+                span {
+                    vertical-align: middle;
+                    padding: 0 12px;
+                }
+
+                img {
+                    vertical-align: middle;
+                }
+            }
+        }
+    }
+
+    .selecao-categoria {
+        margin-top: 32px;
+        color: #1D1B20;
+    }
+
+    .modal-actions {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+
+        button {
+            margin: 8px 8px;
+            width: 100%;
+        }
+
+        .confirm {
+            background-color: #6750A4 !important;
+            color: white !important;
+        }
+
+        .cancel {
+            background-color: #E8DEF8 !important;
+            color: black !important;
+        }
+    }
+
+}
