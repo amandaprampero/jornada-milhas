@@ -18,7 +18,17 @@
         margin-bottom: -1.25em;
     }
 
+    mat-chip-option.mdc-evolution-chip--selected {
+        background-color: #6750A4 !important;
+    }
+
     .mat-button-toggle-checked {
         background-color: #F7F2FA;
+    }
+
+    .button {
+        background-color: #6750A4;
+        color: white;
+        padding: 8px 24px !important;
     }
 }
